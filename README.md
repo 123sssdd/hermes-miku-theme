@@ -1,4 +1,4 @@
-# Hermes 初音未来全窗口动态背景插件 (hermes-miku-wallpaper)
+# Hermes 初音未来全透动态主题插件 (hermes-miku-theme)
 
 专为 Hermes Desktop 打造的初音未来全窗口动态壁纸桌面插件。
 
@@ -21,7 +21,7 @@
 将本仓库直接克隆到 Hermes 的 `desktop-plugins` 目录即可（插件内置了 GitHub Raw 壁纸自动回退，克隆后 2 秒内自动热加载生效）：
 
 ```bash
-git clone https://github.com/123sssdd/hermes-miku-wallpaper.git ~/.hermes/desktop-plugins/miku-wallpaper
+git clone https://github.com/123sssdd/hermes-miku-theme.git ~/.hermes/desktop-plugins/miku-wallpaper
 ```
 
 如果你想把壁纸缓存到本地离线使用（推荐），运行仓库自带的一键脚本：
@@ -35,7 +35,7 @@ chmod +x install.sh
 Windows PowerShell 用户可运行：
 
 ```powershell
-git clone https://github.com/123sssdd/hermes-miku-wallpaper.git "$HOME\.hermes\desktop-plugins\miku-wallpaper"
+git clone https://github.com/123sssdd/hermes-miku-theme.git "$HOME\.hermes\desktop-plugins\miku-wallpaper"
 powershell -ExecutionPolicy Bypass -File "$HOME\.hermes\desktop-plugins\miku-wallpaper\install.ps1"
 ```
 
